@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* font-size: 62.5%; */
+    /* overflow: hidden; */
+}
+
+.logo-left img {
+    width: 50px;
+    height: 50px;
+}
+
+.company-right {
+    font-size: 24px;
+    font-weight: 900;
+    color: #577fba;
+}
+
+.intro-section {
+    /* width: 100vw;
+    height: 100vh; */
+    /* overflow: hidden; */
+}
+
+.bg-visual {
+    background: url("../image/4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+.green-btn {
+    background-color: #00b388;
+    color: #fff;
+    padding: 8px 30px;
+}
+
+.introduction-breif {
+    border: 5px solid #3eac91;
+}
+
+.introduction-breif h2 {
+    margin: 0 auto;
+    padding: 2.2rem 0;
+}
+
+.introduction-breif p {
+    margin: 0 auto;
+    /* padding: 0 9.3rem; */
+    text-align: center;
+}
+
+.introduction-breif a {
+    text-decoration: none;
+    color: #fff;
+    margin: 30px 0;
+}
+
+.intro-section .container {
+    margin-top: -250px;
+}
+
+.upper-box {
+    padding-top: 250px;
+}
+
+.feature {
+    background-color: #435464;
+}
+
+.feature h2 {
+    word-spacing: 12px;
+    font-size: 3.0rem;
+    /* padding: 24px; */
+}
+
+.feature .text-white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
