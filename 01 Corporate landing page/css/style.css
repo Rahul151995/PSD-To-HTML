@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 * {
-    margin: 0;
+    /* margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; */
 }
 
 html {
@@ -13,23 +13,40 @@ html {
 
 /* HEADER MAIN SECTION 1 BEGIN */
 
-.main_preview {
+.main_home {
     background: url("../image/photo-1433354359170-23a4ae7338c6@1X.png");
+    width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden;
 }
 
-.main_preview .heading {
-    font-size: 60px;
+.parent_div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child_div {
+    width: 33%;
+    /* background-color: rgb(89, 78, 78); */
+}
+
+.main_home .heading {
+    font-size: 3.2vw;
     color: #282828;
     font-weight: 100;
-    padding: 0 9rem;
+    /* padding: 0 9rem; */
     word-spacing: 4px;
     text-align: center;
-    line-height: 65px;
+    /* line-height: 65px; */
+}
+
+.banner {
+    color: #fff;
+    padding: 15rem 7rem;
 }
 
 
@@ -43,6 +60,7 @@ html {
     height: 50px;
     background: #8185A3;
     border-radius: 50%;
+    margin: 42px auto;
 }
 
 .triangle_play {
@@ -51,6 +69,16 @@ html {
     background: #fff;
     display: block;
     clip-path: polygon(31% 20%, 32% 83%, 81% 50%);
+}
+
+.main_home button {
+    background: #FF6D6D;
+    color: white;
+}
+
+.info-p {
+    color: #282828;
+    font-size: 10px;
 }
 
 
@@ -108,6 +136,8 @@ html {
 }
 
 .center_body {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,3 +145,61 @@ html {
 
 
 /* GLOBAL END */
+
+
+/* MEDIA QUERY  BEGIN*/
+
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+
+/* 320px — 480px: Mobile devices */
+
+@media (max-width: 480px) {
+    /* CSS */
+}
+
+
+/* 481px — 768px: iPads, Tablets */
+
+@media (max-width: 768px) {
+    /* CSS */
+    .child_div {
+        width: 90%;
+    }
+    .main_home .heading {
+        font-size: 8.2vw;
+    }
+    .main_section .m-5 {
+        margin: 0.5rem !important;
+    }
+    .main_section .main_body {
+        padding: 5px !important;
+    }
+}
+
+
+/* 769px — 1024px: Small screens, laptops */
+
+@media (max-width: 1024px) {
+    /* CSS */
+}
+
+
+/* 1025px — 1200px: Desktops, large screens */
+
+@media (max-width: 1200px) {
+    /* CSS */
+}
+
+
+/* 1201px and more —  Extra large screens, TV  */
+
+@media (min-width:1201px) {}
+
+
+/* MEDIA QUERY END */
