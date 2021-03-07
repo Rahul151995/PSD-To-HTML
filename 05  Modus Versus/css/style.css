@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+/* GLOBAL END */
+
+
+/* MEDIA QUERY  BEGIN*/
+
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+
+/* 320px — 480px: Mobile devices */
+
+@media (max-width: 480px) {
+    /* CSS */
+}
+
+
+/* 481px — 768px: iPads, Tablets */
+
+@media (max-width: 768px) {
+    /* CSS */
+}
+
+
+/* 769px — 1024px: Small screens, laptops */
+
+@media (max-width: 1024px) {
+    /* CSS */
+}
+
+
+/* 1025px — 1200px: Desktops, large screens */
+
+@media (max-width: 1200px) {
+    /* CSS */
+}
+
+
+/* 1201px and more —  Extra large screens, TV  */
+
+@media (min-width:1201px) {}
+
+
+/* MEDIA QUERY END */
