@@ -5,8 +5,102 @@
 }
 
 html {
-    font-size: 62.5%;
+    /* font-size: 62.5%; */
 }
+
+
+/* NAVBAR ONE START */
+
+.navbar_one .navbar {
+    background-color: #333333 !important;
+}
+
+.navbar_one .nav-item .nav-link {
+    color: #fff !important;
+    font-size: 13px;
+}
+
+.navbar_one .cart_menu {
+    background-color: #00C8C8;
+    padding: 1px 20px;
+}
+
+
+/* NAVBAR ONE END */
+
+
+/* NAVBAR TWO BEGIN */
+
+.navbar_two .navbar {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.navbar_two .nav-item .nav-link {
+    color: #000 !important;
+    font-size: 13px;
+}
+
+.navbar_two .dropdown.show .nav-link {
+    color: #00C8C8 !important;
+}
+
+.navbar_two .input-group .form-control {
+    font-size: 13px;
+}
+
+.navbar_two {
+    background: url(../image/home/photo@1X.png);
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-color: #f8f8f8;
+}
+
+.navbar_two .ave_format {
+    color: #575153;
+    font-size: 17vw;
+    letter-spacing: 30px;
+    font-weight: 700;
+    padding: 35px;
+}
+
+.navbar_two .shop_collection_btn {
+    text-decoration: none;
+    color: #737373;
+    border: 2px solid #737373;
+    padding: 10px 20px;
+    font-size: 13px;
+    word-spacing: 4px;
+}
+
+.mega-menu {
+    width: 500px;
+}
+
+.mega-menu li {
+    list-style: none;
+}
+
+.mega-menu .advertisment {
+    text-align: center;
+    background-color: #333333;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 25px;
+    margin: 20px 26px;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
+
+.navbar_two .collection-btn {
+    position: absolute;
+    right: 3%;
+    bottom: 2%;
+}
+
+
+/* NAVBAR TWO END */
 
 
 /* GLOBAL END */
@@ -21,6 +115,12 @@ html {
 1025px — 1200px: Desktops, large screens
 1201px and more —  Extra large screens, TV */
 
+@media(max-width:575px) {
+    .left_side_menu .dropdown-menu {
+        position: absolute !important;
+    }
+}
+
 
 /* 320px — 480px: Mobile devices */
 
@@ -33,6 +133,13 @@ html {
 
 @media (max-width: 768px) {
     /* CSS */
+    .navbar_two .mega-menu {
+        width: 300px;
+        text-align: center;
+    }
+    .navbar_two .navbar-brand img {
+        display: block !important;
+    }
 }
 
 
@@ -40,6 +147,16 @@ html {
 
 @media (max-width: 1024px) {
     /* CSS */
+    .navbar_two .nav-item {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .navbar_two .form-inline {
+        margin-left: 5px !important;
+    }
+    .navbar_two .navbar-brand img {
+        display: none;
+    }
 }
 
 
@@ -47,12 +164,22 @@ html {
 
 @media (max-width: 1200px) {
     /* CSS */
+    .navbar_two .nav-item {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
 }
 
 
 /* 1201px and more —  Extra large screens, TV  */
 
 @media (min-width:1201px) {}
+
+@media(min-width:992) {
+    .navbar_two .ave_format {
+        /* font-size: 11vw !important; */
+    }
+}
 
 
 /* MEDIA QUERY END */
